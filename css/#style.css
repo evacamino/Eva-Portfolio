@@ -1,0 +1,17 @@
+
+:root {
+    --favorite:  #FFDD00, #FA9E05, #A7095C;
+    --background: #4A772F,
+}
+body {
+    margin: 2px;
+    padding: 2px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--favorite);
+    background-color: var(--background);
+    line-height: 2px;
+}
+nav {
+    color: orange;
+}
