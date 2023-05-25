@@ -12,6 +12,7 @@ body {
 }
 
 nav,
+
 footer {
     display: flex;
     width: 100%;
@@ -23,91 +24,97 @@ footer {
     font-size: 20px;
 
 }
-p {
-    font-size: 19px;
-}
-.work {
-    display: flex;
-    align-items: flex-start;
-
-}
-
-.work .content {
-    flex: 1;
-    padding: 10px;
-}
-
-.image-1 img {
-    max-width: 600px;
-}
-
-.end {
-    border: #774E26 dashed;
-    display: flex;
-    align-items: baseline;
-    flex-basis: 100%;
-}
-
-.cont {
-    flex: 2;
-}
-
-.info {
-    flex: 1;
-}
-
-@media (min-width: 768px) {
-    .top {
-        display: flex;
-        border: 10px rgb(235, 240, 194) dashed;
-        padding: 10px
-    }
-
-    .link {
-        flex: 1;
-
-    }
-
-    .link-2 {
-        flex: 1;
-    }
-
-    .main {
-        display: flex;
-        border: 10px dashed;
-        padding: 10px
-    }
-
-    .me {
-        flex: 1;
-    }
-
-    .okay {
-        flex: 2;
-    }
-
-}
-
-header {}
-
-.okay {
-    background-color: #774E26;
-}
-
 
 main {
-    border: 5px dotted white;
-    padding: 50px;
-    margin: 20px;
-    text-align: center;
+    max-width: 100%;
+    padding: 20px;
 
-    display: flex;
-    flex-direction: column
 }
 
-/* footer {
-    background-color: #824C71;
-} */
+section {
+    flex-wrap: wrap;
+    margin: 20px;
+    display: flex;
+    padding: 20px;
+    border-bottom: 2px dashed white;
+
+
+}
+
+.projCont {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Ref {
+    background-image: url(https://github.com/evacamino/prework-study-guide/assets/118796859/4dfc0a6a-bb5b-4a91-9535-47fee325ece2);
+    /* scale: 150%; */
+    display: flex;
+    align-items: flex-end;
+    align-content: right;
+    background-size: 100%;
+    max-width: auto;
+    max-height: auto;
+    border: 20px solid;
+    padding: 500px;
+    border: 1px black;
+
+}
+
+.Note {
+    background-image: url(https://github.com/evacamino/prework-study-guide/assets/118796859/d7905c76-d22c-4011-9746-3ae4a1f6ed8a);
+}
+
+.Weather {
+    background-image: url(https://github.com/evacamino/prework-study-guide/assets/118796859/8c8c04c8-723c-46bf-8aba-cc8621209578);
+}
+
+.Quiz {
+    background-image: url(https://github.com/evacamino/prework-study-guide/assets/118796859/9c5b93e2-3ac1-4162-9e7b-278e682ac085);
+}
+
+.Schedule {
+    background-image: url(https://github.com/evacamino/prework-study-guide/assets/118796859/680eeb60-a033-4ffa-aa69-7f37a30a61d9);
+}
+
+.Gen {
+    background-image: url(https://github.com/evacamino/prework-study-guide/assets/118796859/c73e06de-da0d-413f-b898-353efb7c4ada);
+
+}
+
+.proj {
+    border: 1px black;
+    display: flex;
+    align-items: flex-end;
+    align-content: right;
+    background-size: 100%;
+    max-width: auto;
+    max-height: auto;
+    border: 20px solid;
+    padding: 200px;
+    scale: 90%;
+}
+
+section h2 {
+    line-height: 3;
+    text-align: right;
+    padding-right: 20px;
+    flex: 10%;
+}
+
+section div {
+    flex: 70%;
+
+}
+
+section div p {
+    text-align: center;
+    padding-left: 15px;
+}
+
+
+
 
 
 a:link {
@@ -115,5 +122,6 @@ a:link {
 }
 
 a:hover {
-    color: aqua
+    color: red;
+    transform: scale(1.1);
 }
