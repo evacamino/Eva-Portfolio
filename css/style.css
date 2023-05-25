@@ -1,10 +1,21 @@
+*{
+    padding:0;     
+    margin: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
 body {
-    background-color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
     color:rgb(155, 191, 171);
     font-size: 32px;
 }
+nav{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
 
+}
 .work {
     display: flex;
     align-items: flex-start;
