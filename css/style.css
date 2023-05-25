@@ -1,99 +1,119 @@
-*{
-    padding:0;     
-    margin: 1%;
+* {
+    padding: 0;
+    margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 24px;
+
+    box-sizing: border-box;
 }
+
 body {
-    background-color: #DCCCA3;
-    color:rgb(155, 191, 171);
-    font-size: 32px;
+    background-image: linear-gradient(rgba(102, 160, 236, 0.9) 0%,
+            rgba(232, 102, 236, 0.6) 100%);
 }
-nav{
+
+nav,
+footer {
     display: flex;
-    width: 60%;
+    width: 100%;
     align-items: center;
     justify-content: center;
     margin: auto;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 20px;
 
+}
+p {
+    font-size: 19px;
 }
 .work {
     display: flex;
     align-items: flex-start;
 
 }
+
 .work .content {
     flex: 1;
     padding: 10px;
 }
+
 .image-1 img {
-   max-width: 600px;
+    max-width: 600px;
 }
+
 .end {
     border: #774E26 dashed;
     display: flex;
     align-items: baseline;
     flex-basis: 100%;
 }
+
 .cont {
     flex: 2;
 }
+
 .info {
     flex: 1;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .top {
         display: flex;
         border: 10px rgb(235, 240, 194) dashed;
         padding: 10px
     }
-    
+
     .link {
-        flex:1;
-    
+        flex: 1;
+
     }
-    
+
     .link-2 {
-        flex:1;
+        flex: 1;
     }
 
     .main {
         display: flex;
-        border: 10px  dashed;
+        border: 10px dashed;
         padding: 10px
     }
+
     .me {
-        flex:1;
-    }
-    .okay {
-        flex:2;
-    }
-   
+        flex: 1;
     }
 
-header{
-    background-color: #774E26;
-    color:white;
+    .okay {
+        flex: 2;
+    }
+
 }
+
+header {}
+
 .okay {
     background-color: #774E26;
 }
 
 
-main h2{
-    background-color:#A7095C;
-    width: max-content;
-    border: 15px dashed white;
+main {
+    border: 5px dotted white;
     padding: 50px;
     margin: 20px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column
 }
+
+/* footer {
+    background-color: #824C71;
+} */
 
 
 a:link {
     color: orange;
 }
- a:hover {
-    color:aqua
- }
 
+a:hover {
+    color: aqua
+}
