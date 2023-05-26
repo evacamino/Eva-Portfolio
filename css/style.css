@@ -37,6 +37,8 @@ section {
     display: flex;
     padding: 20px;
     border-bottom: 2px dashed white;
+    justify-content: center;
+    align-items: baseline;
 
 
 }
@@ -51,16 +53,22 @@ section {
     background-image: url(https://github.com/evacamino/prework-study-guide/assets/118796859/4dfc0a6a-bb5b-4a91-9535-47fee325ece2);
     /* scale: 150%; */
     display: flex;
-    align-items: flex-end;
-    align-content: right;
-    background-size: 100%;
-    max-width: auto;
-    max-height: auto;
-    border: 20px solid;
-    padding: 500px;
-    border: 1px black;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    min-width: 100%;
+    width: auto;
+    max-height: 300px;
+    min-height: 300px;
+    border: 6px solid;
+    padding: 10px;
 
 }
+
+/* div importanted name overflow hidden will not jump it will just zoom in */
 
 .Note {
     background-image: url(https://github.com/evacamino/prework-study-guide/assets/118796859/d7905c76-d22c-4011-9746-3ae4a1f6ed8a);
@@ -86,14 +94,18 @@ section {
 .proj {
     border: 1px black;
     display: flex;
-    align-items: flex-end;
-    align-content: right;
+    align-items: baseline;
+    justify-content: space-between;
     background-size: 100%;
-    max-width: auto;
-    max-height: auto;
-    border: 20px solid;
-    padding: 200px;
+    max-width: 48%;
+    min-width: 48%;
+    width: auto;
+    max-height: 159px;
+    min-height: 150px;
+    border: 6px solid;
+    padding: 10px;
     scale: 90%;
+    background-position: 70%;
 }
 
 section h2 {
